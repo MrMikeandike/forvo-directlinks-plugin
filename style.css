@@ -5,6 +5,9 @@
 }
 span.mai:before {
  position: relative;
- font-family: Forvo;
- content: "\e605";
+ font-family: FontAwesome;
+ content: "\f065";
+ font-style: normal;
+ font-size: 100%;
+ top: .2em;
 }
