@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Forvo Helper - Direct link to pronounciations.",
+  "version": "0.2.0",
+  "description": "Adds another button for each pronounciation on forvo.com. This button just links to the audio file of the recording which is usually not visible anywhere.",
+
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["jquery.min.js", "content.js"],
+    "matches": ["https://forvo.com/*"],
+    "run_at": "document_end"
+  }]
+
+}

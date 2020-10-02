@@ -1,0 +1,10 @@
+.mai { 
+  position: relative;
+
+  
+}
+span.mai:before {
+ position: relative;
+ font-family: Forvo;
+ content: "\e605";
+}
